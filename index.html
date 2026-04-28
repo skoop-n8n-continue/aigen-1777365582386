@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skoop Digital Signage - Pricing & Features</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="signage-container">
+        <!-- Logo Header -->
+        <header class="header">
+            <div class="logo">
+                <span class="logo-icon">S</span>
+                <h1>Skoop Digital</h1>
+            </div>
+            <div class="date-time" id="datetime"></div>
+        </header>
+
+        <!-- Slides Wrapper -->
+        <div class="slides">
+            <!-- Features Slide -->
+            <div class="slide slide-active" id="slide-features">
+                <h2 class="slide-title">Platform Features</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="icon">✨</div>
+                        <h3>Content & Design</h3>
+                        <p>Built-in Content Design Studio to easily create stunning, professional-quality signage. Schedule and organize media.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="icon">💳</div>
+                        <h3>POS Connectivity</h3>
+                        <p>Build digital menus that connect directly to your Point of Sale system. Updates reflect in real-time.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="icon">🧩</div>
+                        <h3>Dynamic Apps & Widgets</h3>
+                        <p>Embed web pages, live streams, and real-time clocks directly into your digital screens.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="icon">📺</div>
+                        <h3>Screen Management</h3>
+                        <p>Easily control one screen or thousands across multiple locations. Group and push updates instantly.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="icon">📈</div>
+                        <h3>Retail Media & Ad Sales</h3>
+                        <p>Sell ad space, automate campaigns, track performance, and generate Proof of Play reports.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="icon">🔌</div>
+                        <h3>Hardware Agnostic</h3>
+                        <p>Works on virtually any screen using simple software downloads or a USB stick.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pricing Slide -->
+            <div class="slide" id="slide-pricing">
+                <h2 class="slide-title">Pricing Plans</h2>
+                <p class="pricing-subtitle">Discounted pricing available for annual payments, education, and non-profits.</p>
+
+                <div class="pricing-grid">
+                    <div class="pricing-card">
+                        <div class="plan-name">Essentials Plan</div>
+                        <div class="plan-price">$18.00<span>/mo</span></div>
+                        <div class="plan-billing">Billed Annually</div>
+                        <ul class="plan-features">
+                            <li>Unlimited playlists & items</li>
+                            <li>Dynamic widgets & apps</li>
+                            <li>Content Design Studio</li>
+                            <li>Multiple user support</li>
+                            <li>Live screen status reports</li>
+                        </ul>
+                    </div>
+
+                    <div class="pricing-card featured">
+                        <div class="featured-badge">Most Popular</div>
+                        <div class="plan-name">Pro Plan</div>
+                        <div class="plan-price">$49.49<span>/mo</span></div>
+                        <div class="plan-billing">Billed Annually</div>
+                        <ul class="plan-features">
+                            <li><strong>Everything in Essentials</strong></li>
+                            <li>API Access</li>
+                            <li>POS Integrations</li>
+                            <li>Ad Server & Invoicing</li>
+                            <li>Proof of Play Reports</li>
+                            <li>Custom Branded Ad Store</li>
+                        </ul>
+                    </div>
+
+                    <div class="pricing-card">
+                        <div class="plan-name">Enterprise</div>
+                        <div class="plan-price">Custom</div>
+                        <div class="plan-billing">Tailored Solutions</div>
+                        <ul class="plan-features">
+                            <li><strong>Everything in Pro</strong></li>
+                            <li>Dedicated support rep</li>
+                            <li>OEM integrations</li>
+                            <li>Custom app development</li>
+                            <li>SSO & Advanced API</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Progress Indicator -->
+        <div class="progress-container">
+            <div class="progress-dots">
+                <div class="dot active"></div>
+                <div class="dot"></div>
+            </div>
+            <div class="progress-bar-wrapper">
+                <div class="progress-bar" id="progress-bar"></div>
+            </div>
+        </div>
+
+        <!-- Sources hidden but included for SEO/Attribution if needed -->
+        <div style="display: none;" class="sources-list">
+            Sources:
+            - <a href="https://skoopsignage.com/pricing">Skoop Pricing</a>
+            - <a href="https://skoopsignage.com/features">Skoop Features</a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
